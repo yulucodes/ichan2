@@ -1,0 +1,150 @@
+
+ul li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: blanchedalmond;
+  
+}
+
+.nav ul{
+  display:flex;
+  justify-content:flex-end;
+  color:grey;
+  width:100%;
+  height:auto;
+  font-size:1.2rem;
+  position:fixed;
+  background-color: blanchedalmond;
+  padding:1px;
+  
+
+  
+}
+
+.nav ul li{
+  display:inline-block;
+  font-size: 1.5rem;
+  margin:1%;
+  
+  
+}
+a,a:visited{
+  text-decoration: none;
+  color:grey;
+}
+.wrapper{
+  position:relative;
+}
+.landing{
+  position:absolute;
+  width:100%;
+  top:60%;
+  left:10%;
+  color:#ED786A;
+  font-weight:bold;
+  letter-spacing: 1.5rem;
+  font-size:3rem;
+  margin:0;
+  background-color:transparent;
+}
+#button{
+  color:white;
+  background-color:#ED786A;
+  border-radius:20px;
+  font-size:1.5rem;
+  letter-spacing: 0.6rem;
+  padding:10px;
+  margin:auto;
+  text-decoration: none;
+  
+}
+#button:hover{
+ background-color:#c25d52;
+ cursor: pointer;
+
+}
+
+.wrapper{
+  color:blanchedalmond;
+  font-size:3rem;
+  background-image:url('images/landingpage.jpg');
+  background-size:cover;
+  width:100%;
+  height:800px;
+  background-attachment: fixed;
+  background-position: center top;
+  opacity:0.9;
+  top:50%;
+
+}
+blockquote{
+  background-color:blanchedalmond;
+  color:grey;
+  width:100%;
+  height:auto;
+  font-size:2rem;
+  padding:5%;
+  margin-top:2%;
+}
+.gallery-wrapper{
+  
+  display: flex;
+  justify-content:space-evenly;
+  margin:0;
+  
+}
+.gallery{
+  float:left;
+  width:30%;
+  height:auto;
+  margin:0.5%; 
+
+}
+.gallery img{
+  display:block;
+  margin-top:20%;
+  width:100%;
+  height:auto;
+ 
+  border-radius: 80px;
+  
+}
+.gallery .desc{
+  background-color:blanchedalmond;
+  text-align:center;
+  color:grey;
+  margin:40px auto;
+  line-height: 20px;
+  width：auto;
+  font-size:30px;
+  
+}
+footer{
+  border-top:1px grey solid;
+  margin:10% auto;
+  width:100%;
+  color:grey;
+  text-align: center;
+  padding:5%;
+}
+.fa{
+  color:grey;
+  width:500px;
+  margin:auto;
+  margin-bottom: 20px;;
+}
+
+footer a{
+  text-decoration:none;
+  color:grey;
+}
+footer a:hover{
+  cursor: pointer;
+}
